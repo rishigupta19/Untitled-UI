@@ -12,7 +12,9 @@ const Hero = () => {
         <div className="container flex w-[1280px] h-[40px] justify-between mx-auto">
           <div className="content flex space-x-10">
             <div className="logo">
-              <img src={Logo} alt="Logo" />
+              <a href="https://untitled-ui-rishigupta.vercel.app/">
+                <img src={Logo} alt="Logo" />
+              </a>
             </div>
             <nav className="flex m-[5px]">
               <ul className="flex space-x-8">
@@ -88,7 +90,7 @@ const Hero = () => {
           <img src={Tablet} alt="Tablet" className="w-[1380px] h-auto" />
         </div>
       </div>
-      <hr className="flex mt-[27px] ml-[108px] w-[1304px]"/>
+      <hr className="flex mt-[27px] ml-[108px] w-[1304px]" />
     </>
   );
 };

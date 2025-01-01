@@ -83,7 +83,7 @@ const Footer = () => {
 
       <div className="container2 w-[1280px] h-[64px] mx-auto">
         <div className="content w-[1216px] h-[64px] mx-auto flex justify-between items-end">
-          <img src={Logo} alt="Logo"/>
+          <a href="#SocialProof"><img src={Logo} alt="Logo"/></a>
           <p className='text-gray-500 font-normal'>© 2077 Untitled UI. All rights reserved.</p>
         </div>
       </div>
